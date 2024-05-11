@@ -1,3 +1,4 @@
+//Rafael Antonio Valera Pacheco (moepii)
 #include <iostream>
 #include <vector>
 
@@ -64,7 +65,7 @@ int main() {
         }
 
       /*
-      En el resultado pueden pasar dos cosas que sea directamente el valos de n o
+      En el resultado pueden pasar dos cosas que sea directamente el valor de n o
       ser k-1 entonces es necesario el if para casos.
       */
         
