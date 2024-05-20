@@ -44,11 +44,11 @@ int main() {
     cin >> x;
 
     while (x--) {
-        int c;
-        cin >> c;
+        int n;
+        cin >> n;
 
-        vector<int> guardador(c);
-        for (int j = 0; j < c; j++) {
+        vector<int> guardador(n);
+        for (int j = 0; j < n; j++) {
             cin >> guardador[j];
         }
         
@@ -64,7 +64,7 @@ int main() {
         */
 
         int posiprimero = guardador[0];
-        int posiultimo = guardador[c-1];
+        int posiultimo = guardador[n-1];
 
         int respuesta = posiultimo - posiprimero;
 
