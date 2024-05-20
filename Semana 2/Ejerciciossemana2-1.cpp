@@ -2,12 +2,12 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
-/*
-Nuestro plan de accion fue el siguiente: como la entrada es un orden aleatorio primero los ordenamos con
+/*Razonamiento: Como la entrada es un orden aleatorio primero los ordenamos en forma ascendente con
 una funcion bubblesort y hecho eso es tan simple como tomar el primer y ultimo elemeno y retornar su diferencia
-*/
+por que se hace esto? porque cuando efectuas el calculo que pide el ejecicio (a2−a1)+(a3−a2)=(2−1)+(3−2)=2
+puedes darte cuenta que da lo mismo que restara (a3-a1) directamente (a3-a1)=(3-1)=2.*/
+
+using namespace std;
 
 /*nuestra funcion bubblesort,funciona tal cual lo indica en libros de texto, lo mas relevante
 aqui seria el & que aparece dentro del primer parentesis.Que hace ese &?, es una referencia 

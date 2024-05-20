@@ -1,6 +1,9 @@
 //Rafael Antonio Valera Pacheco (moepii)
-//En clase se hizo con while por eso se intento hacer con for
 #include<iostream>
+
+/*Razonamiento:En clase se hizo ya uno con formato while
+en la entraga de este se hizo con un for para demostrar
+que hay mas de una manera de hacerlo*/
 
 using namespace std;
 

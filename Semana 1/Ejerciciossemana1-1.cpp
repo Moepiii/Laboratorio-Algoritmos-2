@@ -2,6 +2,12 @@
 #include <iostream>
 #include <vector>
 
+/*Razonamiento: Basicamente en el analisis del ejercicios se puede concluir que
+sea cuales sean los valores introducidos solo tienes dos posibles resultados que son
+K-1 o n entonces este razonamiento se basa en distingir en que caso se activa la respuesta
+k-1 o n y esto se logra dependiendo si se activa cierto proceso en el programa o no,dicho
+proceso se explica mas afondo en comentarios del propio programa.*/
+
 using namespace std;
 
 int main() {
