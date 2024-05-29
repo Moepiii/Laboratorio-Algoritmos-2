@@ -116,10 +116,10 @@ int main() {
         }
 
         /*
-        Final vamos con la respuesta creamos dos vectores uno que nos a el score final que tiene cada numero y otro que sirve como
-        apoyo para los indices entonces, cremos el for la lines que tiene el push_back simplemente asigna los indices que tiene ese
-        vector a el vector de apoyo a su vez vamos a crear un condicional donde si se cumple alguna de esas condiciones se ejecuta
-        un for interno que en resumen Asigna los índices del vector de apoyo al vector scorefinal con el valor actual de i y bueno
+        Final vamos con la respuesta creamos dos vectores uno que nos da el score final que tiene cada numero y otro que sirve como
+        apoyo para los indices, entonces craemos el for. La lines que tiene el push_back simplemente asigna los indices que tiene 
+        ese vector a el vector de apoyo a su vez vamos a crear un condicional donde si se cumple alguna de esas condiciones se eje-
+        cuta un for interno que en resumen Asigna los índices del vector de apoyo al vector scorefinal con el valor actual de i y 
         clear limpia mi vector para un proximo recorrido.
         */
         
