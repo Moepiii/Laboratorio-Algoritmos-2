@@ -1,6 +1,7 @@
 //Rafael Antonio Valera Pacheco (moepii)
 #include <iostream>
 #include <vector>
+#include <utility>
 
 /*Razonamiento:En este ejercicio la logica a implementar fue sencilla, si se enfoca desde el punto de vista en el que se ve cual
 numero es mayor y que serie de reglas implica ser el mayor se puede sacar un codigo sencillo, ejemplo: ente el 8 y el 3 el 8 es
