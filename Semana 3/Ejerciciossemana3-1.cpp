@@ -5,7 +5,7 @@
 
 /*Razonamiento:Bueno como se quiere allar una distancia la linea de pensamiento es vamos a ordenar el vector
 que nos den en primera instancia con un algoritmo eficiente y luego por medio de una busqueda binaria (medio 
-alterada)encontrar la distancia minima maxima*/
+alterada)encontrar la distancia minima maxima.*/
 
 using namespace std;
 
