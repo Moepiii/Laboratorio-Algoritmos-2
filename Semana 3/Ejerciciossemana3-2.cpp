@@ -3,7 +3,7 @@
 #include <vector>
 #include <utility>
 
-/*Razonamiento:En este ejercicio la logica a implementar fue sencilla, si se enfoca desde el punto de vista en el que se ve cual
+/*Razonamiento: En este ejercicio la logica a implementar fue sencilla, si se enfoca desde el punto de vista en el que se ve cual
 numero es mayor y que serie de reglas implica ser el mayor se puede sacar un codigo sencillo, ejemplo: ente el 8 y el 3 el 8 es
 mayor por lo cual el 8 va a tene el score de 1 si ampliamos esa logica a mas numero y le aplicamos las reglas que exige el ejer-
 cicio se puede sacar facilmente, para resumer se ve cual numero es mayor cual es el menor y aplicarle sus respectivas reglas
