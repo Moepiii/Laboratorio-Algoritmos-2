@@ -247,22 +247,22 @@ int main() {
 
     int dimensionesn = calculopotencia2(n);
     vector<unsigned long long> ini(dimensionesn);
-    vector<vector<unsigned long long>> A_exp(dimensionesn, ini), B_exp(dimensionesn, ini), C_exp(dimensionesn, ini);
+    vector<vector<unsigned long long>> Anew(dimensionesn, ini), Bnew(dimensionesn, ini), Cnew(dimensionesn, ini);
 
 
     for (i = 0; i < n; ++i) {
         for (j = 0; j < n; ++j) {
-            A_exp[i][j] = static_cast<unsigned long long>(A[i][j]);
-            B_exp[i][j] = static_cast<unsigned long long>(B[i][j]);
+            Anew[i][j] = static_cast<unsigned long long>(A[i][j]);
+            Bnew[i][j] = static_cast<unsigned long long>(B[i][j]);
         }
     }
 
     int usodestrassen = 100; 
-    Strassen(A_exp, B_exp, C_exp, dimensionesn, usodestrassen);
+    Strassen(Anew, Bnew, Cnew, dimensionesn, usodestrassen);
 
     for (i = 0; i < n; ++i) {
         for (j = 0; j < n; ++j) {
-            C[i][j] = C_exp[i][j];
+            C[i][j] = Cnew[i][j];
         }
     }
 
